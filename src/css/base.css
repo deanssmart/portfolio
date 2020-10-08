@@ -26,6 +26,10 @@ body {
 	line-height: 1;
 }
 
+.logo {
+	width: 100px;
+}
+
 .demo-1 {
 	--color-title: #fff;
 }
@@ -238,6 +242,19 @@ a:focus {
 }
 
 @media screen and (max-width: 42em) {
+	.content__drag-area {
+		flex-direction: column;
+		justify-content: end;
+	}
+	.img-drag {
+		transform: scale3d(0.7, 0.7, 0.7);
+	}
+	.img-drag2 {
+		transform: scale3d(0.7, 0.7, 0.7);
+	}
+}
+
+/* @media screen and (max-width: 42em) {
 	.content .img-drag,
 	.content .img-wrap {
 		margin: 1rem;
@@ -249,9 +266,9 @@ a:focus {
 	.content .img-wrap2 {
 		margin: 1rem;
 	}
-}
+} */
 
-@media screen and (min-width: 53em) {
+/* @media screen and (min-width: 53em) {
 	.frame {
 		position: fixed;
 		text-align: left;
@@ -309,4 +326,4 @@ a:focus {
 		height: 100vh;
 		justify-content: center;
 	}
-}
+} */
