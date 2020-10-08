@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // eslint-disable-next-line
 import DraggableImage from '../../js/DraggableImage';
+// eslint-disable-next-line
+import DraggableArt from '../../js/DraggableArt';
 import skills from '../../img/skills.png';
 import htmlLogo from '../../img/html.png';
 import cssLogo from '../../img/css.png';
@@ -31,14 +33,14 @@ class Skills extends Component {
                         <img className="img-trail" src={jsLogo} alt="JS Logo"></img>
                         <div className="img-drag" style={{backgroundImage: `url(${skills})`}}></div>
                     </div>
-                    <div className="img-wrap">
-                        <img className="img-trail" src={liam} alt="HTML Logo"></img>
-                        <img className="img-trail" src={liam} alt="CSS Logo"></img>
-                        <img className="img-trail" src={liam} alt="php Logo"></img>
-                        <img className="img-trail" src={liam} alt="Laravel Logo"></img>
-                        <img className="img-trail" src={liam} alt="React Logo"></img>
-                        <img className="img-trail" src={liam} alt="JS Logo"></img>
-                        <div className="img-drag" style={{backgroundImage: `url(${skills})`}}></div>
+                    <div className="img-wrap2">
+                        <img className="img-trail2" src={liam} alt="HTML Logo"></img>
+                        <img className="img-trail2" src={liam} alt="CSS Logo"></img>
+                        <img className="img-trail2" src={liam} alt="php Logo"></img>
+                        <img className="img-trail2" src={liam} alt="Laravel Logo"></img>
+                        <img className="img-trail2" src={liam} alt="React Logo"></img>
+                        <img className="img-trail2" src={liam} alt="JS Logo"></img>
+                        <div className="img-drag2" style={{backgroundImage: `url(${skills})`}}></div>
                     </div>
                  </div>
                 

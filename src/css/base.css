@@ -231,9 +231,22 @@ a:focus {
 	flex: none;
 }
 
+
+.img-drag2,
+.img-wrap2 {
+	flex: none;
+}
+
 @media screen and (max-width: 42em) {
 	.content .img-drag,
 	.content .img-wrap {
+		margin: 1rem;
+	}
+}
+
+@media screen and (max-width: 42em) {
+	.content .img-drag2,
+	.content .img-wrap2 {
 		margin: 1rem;
 	}
 }
