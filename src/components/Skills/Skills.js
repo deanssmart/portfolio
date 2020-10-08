@@ -8,23 +8,18 @@ import phpLogo from '../../img/php.png';
 import laravelLogo from '../../img/laravel.png';
 import reactLogo from '../../img/react.png';
 import jsLogo from '../../img/js.png';
+import liam from '../../img/liam.jpg';
 
 
 class Skills extends Component {
 
-    componentDidMount() {
-        const imagesLoaded = require('imagesloaded');
-        return new Promise((resolve, reject) => {
-            imagesLoaded(document.querySelectorAll('.img-drag, .img-trail'), {background: true}, resolve);
-        });
-    }
 
     render() {
         return (
             <>
-            <div className="content">
+            {/* <div className="content">
                 <h2 className="content__title">Dean SMART</h2>
-            </div>
+            </div> */}
             <div className="content">
                 <div className="content__drag-area">
                     <div className="img-wrap">
@@ -34,6 +29,15 @@ class Skills extends Component {
                         <img className="img-trail" src={laravelLogo} alt="Laravel Logo"></img>
                         <img className="img-trail" src={reactLogo} alt="React Logo"></img>
                         <img className="img-trail" src={jsLogo} alt="JS Logo"></img>
+                        <div className="img-drag" style={{backgroundImage: `url(${skills})`}}></div>
+                    </div>
+                    <div className="img-wrap">
+                        <img className="img-trail" src={liam} alt="HTML Logo"></img>
+                        <img className="img-trail" src={liam} alt="CSS Logo"></img>
+                        <img className="img-trail" src={liam} alt="php Logo"></img>
+                        <img className="img-trail" src={liam} alt="Laravel Logo"></img>
+                        <img className="img-trail" src={liam} alt="React Logo"></img>
+                        <img className="img-trail" src={liam} alt="JS Logo"></img>
                         <div className="img-drag" style={{backgroundImage: `url(${skills})`}}></div>
                     </div>
                  </div>

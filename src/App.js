@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
+import Nav from './components/Nav/Nav';
 import Skills from './components/Skills';
 
-const App = () => (
-  <>
 
-  {2 + 1 === 3 ? <Skills /> : null }
- 
-  </>
+const App = () => (
+
+  <Skills /> 
+
 );
 
 export default App;
