@@ -18,6 +18,8 @@ import wilson from '../../img/wilson.jpg';
 import ronnie from '../../img/ronnie.png';
 import oldMan from '../../img/oldMan.jpg';
 import her from '../../img/her.png';
+import fs from '../../img/fs.png';
+import aeroblade from '../../img/aeroblade.png';
 
 class Skills extends Component {
 
@@ -40,8 +42,8 @@ class Skills extends Component {
                         <div className="img-drag2" style={{backgroundImage: `url(${art})`}}></div>
                     </div>
                     <div className="img-wrap2">
-                        <img className="img-trail2" src={liam} alt="HTML Logo"></img>
-                        <img className="img-trail2" src={liam} alt="CSS Logo"></img>
+                        <img className="img-trail2" src={fs} alt="HTML Logo"></img>
+                        <img className="img-trail2" src={aeroblade} alt="CSS Logo"></img>
                         <img className="img-trail2" src={liam} alt="php Logo"></img>
                         <img className="img-trail2" src={liam} alt="Laravel Logo"></img>
                         <img className="img-trail2" src={liam} alt="React Logo"></img>

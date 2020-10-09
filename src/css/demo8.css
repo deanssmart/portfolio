@@ -5,7 +5,6 @@
 	position: relative;
 	display: flex;
 	pointer-events: none;
-	justify-content: space-between;
 	/* margin: auto 0 0 auto; */
 }
 
@@ -25,10 +24,14 @@
 
 .img-wrap:hover > * {
 	filter: drop-shadow(0 0 0.5rem white);
+	-webkit-filter: drop-shadow(0 0 0.5rem white);
+	-moz-filter: drop-shadow(0 0 0.5rem white);
 }
 
 .img-wrap:active > * {
 	filter: drop-shadow(0 0 6rem white);
+	-webkit-filter: drop-shadow(0 0 6rem white);
+	-moz-filter: drop-shadow(0 0 6rem white);
 }
 
 .img-trail {
@@ -51,10 +54,14 @@
 
 .img-wrap2:hover > * {
 	filter: drop-shadow(0 0 0.5rem white);
+	-webkit-filter: drop-shadow(0 0 0.5rem white);
+	-moz-filter: drop-shadow(0 0 0.5rem white);
 }
 
 .img-wrap2:active > * {
 	filter: drop-shadow(0 0 6rem white);
+	-webkit-filter: drop-shadow(0 0 6rem white);
+	-moz-filter: drop-shadow(0 0 6rem white);
 }
 
 .img-drag2 {
