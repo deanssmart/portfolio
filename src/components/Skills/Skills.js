@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import DraggableImage from '../../js/DraggableImage';
 // eslint-disable-next-line
 import DraggableArt from '../../js/DraggableArt';
-import skills from '../../img/skillsIn.png';
 import art from '../../img/artistIn.png';
 import engineer from '../../img/engineerIn.png';
 import coder from '../../img/coderIn.png';
@@ -14,7 +13,11 @@ import laravelLogo from '../../img/laravel.png';
 import reactLogo from '../../img/react.png';
 import jsLogo from '../../img/js.png';
 import liam from '../../img/liam.jpg';
-
+import siam from '../../img/siam.png';
+import wilson from '../../img/wilson.jpg';
+import ronnie from '../../img/ronnie.png';
+import oldMan from '../../img/oldMan.jpg';
+import her from '../../img/her.png';
 
 class Skills extends Component {
 
@@ -28,12 +31,12 @@ class Skills extends Component {
             <div className="content">
                 <div className="content__drag-area">
                     <div className="img-wrap2">
-                        <img className="img-trail2" src={liam} alt="HTML Logo"></img>
-                        <img className="img-trail2" src={liam} alt="CSS Logo"></img>
+                        <img className="img-trail2" src={wilson} alt="HTML Logo"></img>
+                        <img className="img-trail2" src={siam} alt="CSS Logo"></img>
                         <img className="img-trail2" src={liam} alt="php Logo"></img>
-                        <img className="img-trail2" src={liam} alt="Laravel Logo"></img>
-                        <img className="img-trail2" src={liam} alt="React Logo"></img>
-                        <img className="img-trail2" src={liam} alt="JS Logo"></img>
+                        <img className="img-trail2" src={ronnie} alt="Laravel Logo"></img>
+                        <img className="img-trail2" src={oldMan} alt="React Logo"></img>
+                        <img className="img-trail2" src={her} alt="JS Logo"></img>
                         <div className="img-drag2" style={{backgroundImage: `url(${art})`}}></div>
                     </div>
                     <div className="img-wrap2">
@@ -55,7 +58,6 @@ class Skills extends Component {
                         <div className="img-drag" style={{backgroundImage: `url(${coder})`}}></div>
                     </div>
                  </div>
-                
             </div>
         </>    
         );

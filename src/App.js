@@ -6,7 +6,7 @@ import logo from '../src/img/logo.png';
 
 const App = () => (
 <>
-<img className="logo" src={logo}></img>
+<img className="logo" src={logo} alt="Dean Smart Logo"></img>
   <Skills /> 
 </>
 );

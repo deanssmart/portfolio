@@ -254,6 +254,10 @@ a:focus {
 	}
 }
 
+.rad {
+	border-radius: 1rem;
+}
+
 /* @media screen and (max-width: 42em) {
 	.content .img-drag,
 	.content .img-wrap {
