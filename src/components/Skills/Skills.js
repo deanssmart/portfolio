@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import DraggableImage from '../../js/DraggableImage';
 // eslint-disable-next-line
 import DraggableArt from '../../js/DraggableArt';
-import art from '../../assets/images/artistInYellow.svg';
-import engineer from '../../assets/images/engineerIn.png';
-import coder from '../../assets/images/coderIn.png';
+import art from '../../assets/images/artist.svg';
+import engineer from '../../assets/images/engineer.svg';
+import coder from '../../assets/images/coder.svg';
 import htmlLogo from '../../assets/images/html.png';
 import cssLogo from '../../assets/images/css.png';
 import phpLogo from '../../assets/images/php.png';
@@ -65,9 +65,10 @@ class Skills extends Component {
                         <img className="img-trail" src={reactLogo} alt="React Logo"></img>
                         <img className="img-trail" src={jsLogo} alt="JS Logo"></img>
                         <div className="img-drag" style={{backgroundImage: `url(${coder})`}}></div>
-                    </div>
+                    </div>                    
                  </div>
             </div>
+            <p className="vertical">Scroll for Projects <span className="text-highlight">&gt;</span></p>
         </>    
         );
     };

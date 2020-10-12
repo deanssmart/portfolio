@@ -15,7 +15,7 @@
 /* fonts  */
 
 :root {
-    --baseFont: bigmoore, serif; 
+    --baseFont: Quivera, Tahoma, Verdana, sans-serif;
     --specialFont: Quivera, Tahoma, Verdana, sans-serif;
     --baseFontWt: 400;
     --boldFontWt: 800;
@@ -34,6 +34,3 @@ body {
 	line-height: 1;
 }
 
-.yellow {
-	color: var(--siteYellow);
-}

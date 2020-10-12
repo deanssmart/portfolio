@@ -29,7 +29,7 @@
     /* z-index: 1000; */
 }
 
-.title-highlight {
+.text-highlight {
 	color: var(--siteYellow);
 }
 
@@ -44,4 +44,16 @@
         font-size: 1.25rem;
         margin: 0;
     }
+}
+
+.vertical {
+    /* background-color: #DDDDDD; */
+    /* padding: 10px; */
+    /* border-radius: 0 0 5px 5px; */
+    margin: 0 1rem 0 0;
+    float: right;
+    -webkit-transform: rotate(90deg) translate(100%,100%);
+            transform: rotate(90deg) translate(100%,100%);
+    -webkit-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
 }
