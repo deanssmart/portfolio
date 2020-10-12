@@ -23,15 +23,15 @@
 }
 
 .img-wrap:hover > * {
-	filter: drop-shadow(0 0 0.5rem white);
-	-webkit-filter: drop-shadow(0 0 0.5rem white);
-	-moz-filter: drop-shadow(0 0 0.5rem white);
+	filter: drop-shadow(0 0 0.5rem var(--siteYellow));
+	-webkit-filter: drop-shadow(0 0 0.5rem var(--siteYellow));
+	-moz-filter: drop-shadow(0 0 0.5remvar(--siteYellow));
 }
 
 .img-wrap:active > * {
-	filter: drop-shadow(0 0 6rem white);
-	-webkit-filter: drop-shadow(0 0 6rem white);
-	-moz-filter: drop-shadow(0 0 6rem white);
+	filter: drop-shadow(0 0 5rem var(--siteYellow));
+	-webkit-filter: drop-shadow(0 0 5rem var(--siteYellow));
+	-moz-filter: drop-shadow(0 0 5rem var(--siteYellow));
 }
 
 .img-trail {
@@ -53,15 +53,15 @@
 }
 
 .img-wrap2:hover > * {
-	filter: drop-shadow(0 0 0.5rem white);
-	-webkit-filter: drop-shadow(0 0 0.5rem white);
-	-moz-filter: drop-shadow(0 0 0.5rem white);
+	filter: drop-shadow(0 0 0.5rem var(--siteYellow));
+	-webkit-filter: drop-shadow(0 0 0.5rem var(--siteYellow));
+	-moz-filter: drop-shadow(0 0 0.5rem var(--siteYellow));
 }
 
 .img-wrap2:active > * {
-	filter: drop-shadow(0 0 6rem white);
-	-webkit-filter: drop-shadow(0 0 6rem white);
-	-moz-filter: drop-shadow(0 0 6rem white);
+	filter: drop-shadow(0 0 5rem var(--siteYellow));
+	-webkit-filter: drop-shadow(0 0 5rem var(--siteYellow));
+	-moz-filter: drop-shadow(0 0 5rem var(--siteYellow));
 }
 
 .img-drag2 {

@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 // import Nav from './components/Nav/Nav';
 import Skills from './components/Skills';
-// import logo from '../src/img/logo.png';
+import logo from '../src/assets/images/logo.png';
 
 const App = () => (
 <>
-{/* <img className="logo" src={logo} alt="Dean Smart Logo"></img> */}
+  <a href="/">
+    <img className="logo" src={logo} alt="Dean Smart Logo"></img>
+  </a>
   <Skills /> 
 </>
 );

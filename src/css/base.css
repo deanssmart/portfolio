@@ -1,92 +1,24 @@
-*,
-*::after,
-*::before {
-	box-sizing: border-box;
-}
-
-:root {
-	font-size: 14px;
-}
-
-body {
-	margin: 0;
-	--color-text: #000;
-	--color-bg: #000000;
-	--color-link: #594343;
-	--color-link-hover: #000;
-	color: var(--color-text);
-	background-color: var(--color-bg);
-	--font-main: Geneva, Tahoma, Verdana, sans-serif;
-	--font-alt: bigmoore, serif;
-	--font-weight-alt: 400;
-	--color-title: inherit;
-	font-family: var(--font-main);
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	line-height: 1;
-	overflow: hidden;
-}
-
 .logo {
-	width: 100px;
+	width: 45px;
+	margin: 2rem 2.5rem;
 }
 
-.demo-1 {
-	--color-title: #fff;
+@media screen and (max-width: 42em) {
+	.logo {
+		width: 35px;
+		margin: 0.5rem 0.5rem 1rem 0.5rem;
+	}
 }
 
-.demo-2 {
-	--color-link: #fff;
-	--color-bg: #a1e0e7;
-	--font-alt: meno-banner, serif;
-}
-
-.demo-3 {
-	--color-text: #000;
-	--color-link: #fff;
-	--color-bg: #d0c6ad;
-	--font-alt: freight-big-pro, serif;
-}
-
-.demo-4 {
-	--color-link: #eaeaef;
-    --color-bg: #0859ca;
-    --font-alt: bely-display, sans-serif;
-    --color-title: #eaeaef;
-}
-
-.demo-5 {
-	--color-link: #dc4823;
-	--color-bg: #eceae9;
-	--font-alt: louvette-display, serif;
-	font-family: 'Barlow', sans-serif;
-	text-transform: uppercase;
-}
-
-.demo-6 {
-	--color-text: #fff;
-	--color-link: #a17d66;
-    --color-bg: #dacca9;
-    --font-alt: bigmoore, serif;
-}
-
-.demo-7 {
-	--color-link: #343129;
-    --color-bg: #77705e;
-    --font-alt: meno-banner, serif;
-    --color-text: #e6ae4d;
-}
-
-.demo-8 {
-	--color-text: #000;
+/* .demo-8 {
+	--colourText: #000;
 	--color-link: #7e0c0c;
-	--color-bg: #8de4f3;
+	--colourBg: #8de4f3;
 	--font-alt: freight-big-pro, serif;
-	--color-title: #fff;
-}
+} */
 
 /* Page Loader */
-.js .loading::before {
+/* .js .loading::before {
 	content: '';
 	position: fixed;
 	z-index: 100000;
@@ -94,7 +26,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: var(--color-bg);
+	background: var(--colourBg);
 }
 
 .js .loading::after {
@@ -111,7 +43,7 @@ body {
 	opacity: 0.4;
 	background: var(--color-link);
 	animation: loaderAnim 0.7s linear infinite alternate forwards;
-}
+} */
 
 @keyframes loaderAnim {
 	to {
@@ -160,12 +92,12 @@ a:focus {
 
 .frame__demo--current,
 .frame__demo--current:hover {
-	color: var(--color-text);
+	color: var(--colourText);
 }
 
 .frame__initials {
 	font-family: var(--font-alt);
-	font-weight: var(--font-weight-alt);
+	font-weight: var(--baseFontWt);
 	font-size: 2rem;
 	pointer-events: none;
 	line-height: 14px;
@@ -175,23 +107,14 @@ a:focus {
 	display: flex;
 	position: relative;
 	flex-direction: column;
-	width: 100vw;
 	height: calc(100vh - 13rem);
 	position: relative;
 	justify-content: flex-start;
-	align-items: center;
 }
 
-.content__title {
-	font-size: 10vw;
-	font-family: var(--font-alt);
-	font-weight: var(--font-weight-alt);
-	margin: 0;
-	position: relative;
-	pointer-events: none;
-	z-index: 1000;
-	color: var(--color-title);
-	text-align: center;
+
+.yellow {
+	color: var(--siteYellow);
 }
 
 .content__title--multiline {
@@ -231,21 +154,22 @@ a:focus {
 	padding: 3rem;
 }
 
-.img-drag,
 .img-wrap {
 	flex: none;
+	margin: 1rem;
 }
 
 
-.img-drag2,
 .img-wrap2 {
 	flex: none;
+	margin: 1rem;
 }
 
 @media screen and (max-width: 42em) {
 	.content__drag-area {
 		flex-direction: column;
 		justify-content: end;
+		position: relative;
 	}
 	.img-drag {
 		transform: scale3d(0.7, 0.7, 0.7);
@@ -258,6 +182,54 @@ a:focus {
 .rad {
 	border-radius: 1rem;
 }
+
+
+/* 
+.demo-1 {
+	--color-title: #fff;
+}
+
+.demo-2 {
+	--color-link: #fff;
+	--colourBg: #a1e0e7;
+	--font-alt: meno-banner, serif;
+}
+
+.demo-3 {
+	--colourText: #000;
+	--color-link: #fff;
+	--colourBg: #d0c6ad;
+	--font-alt: freight-big-pro, serif;
+}
+
+.demo-4 {
+	--color-link: #eaeaef;
+    --colourBg: #0859ca;
+    --font-alt: bely-display, sans-serif;
+    --color-title: #eaeaef;
+}
+
+.demo-5 {
+	--color-link: #dc4823;
+	--colourBg: #eceae9;
+	--font-alt: louvette-display, serif;
+	font-family: 'Barlow', sans-serif;
+	text-transform: uppercase;
+}
+
+.demo-6 {
+	--colourText: #fff;
+	--color-link: #a17d66;
+    --colourBg: #dacca9;
+    --font-alt: bigmoore, serif;
+}
+
+.demo-7 {
+	--color-link: #343129;
+    --colourBg: #77705e;
+    --font-alt: meno-banner, serif;
+    --colourText: #e6ae4d;
+} */
 
 /* @media screen and (max-width: 42em) {
 	.content .img-drag,
