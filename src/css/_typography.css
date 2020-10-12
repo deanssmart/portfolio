@@ -29,6 +29,9 @@
     /* z-index: 1000; */
 }
 
+.title-highlight {
+	color: var(--siteYellow);
+}
 
   @media screen and (max-width: 42em) {
     .title {

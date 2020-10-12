@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import DraggableImage from '../../js/DraggableImage';
 // eslint-disable-next-line
 import DraggableArt from '../../js/DraggableArt';
-import art from '../../assets/images/artistIn.png';
+import art from '../../assets/images/artistInYellow.svg';
 import engineer from '../../assets/images/engineerIn.png';
 import coder from '../../assets/images/coderIn.png';
 import htmlLogo from '../../assets/images/html.png';
@@ -40,21 +40,21 @@ class Skills extends Component {
             <Header />
                 <div className="content__drag-area">
                     <div className="img-wrap2">
-                        <img className="img-trail2" src={wilson} alt="HTML Logo"></img>
-                        <img className="img-trail2" src={siam} alt="CSS Logo"></img>
-                        <img className="img-trail2" src={liam} alt="php Logo"></img>
-                        <img className="img-trail2" src={ronnie} alt="Laravel Logo"></img>
-                        <img className="img-trail2" src={oldMan} alt="React Logo"></img>
-                        <img className="img-trail2" src={her} alt="JS Logo"></img>
+                        <img className="img-trail2" src={wilson} alt="colour drawing of a dog"></img>
+                        <img className="img-trail2" src={siam} alt="painting of a wedding with aeroplanes"></img>
+                        <img className="img-trail2" src={liam} alt="greyscale painting of bearded man"></img>
+                        <img className="img-trail2" src={ronnie} alt="digital colour drawing of body builder"></img>
+                        <img className="img-trail2" src={oldMan} alt="colour painting of old mans face"></img>
+                        <img className="img-trail2" src={her} alt="colour painting of ladies face"></img>
                         <div className="img-drag2" style={{backgroundImage: `url(${art})`}}></div>
                     </div>
                     <div className="img-wrap2">
-                        <img className="img-trail2" src={fs} alt="HTML Logo"></img>
-                        <img className="img-trail2" src={aeroblade} alt="CSS Logo"></img>
-                        <img className="img-trail2" src={patent} alt="php Logo"></img>
-                        <img className="img-trail2" src={db11} alt="Laravel Logo"></img>
-                        <img className="img-trail2" src={dyson} alt="React Logo"></img>
-                        <img className="img-trail2" src={damper} alt="JS Logo"></img>
+                        <img className="img-trail2" src={fs} alt="formula student racecar"></img>
+                        <img className="img-trail2" src={aeroblade} alt="aston martin deployable spoiler close up"></img>
+                        <img className="img-trail2" src={patent} alt="active aerodynamic patent"></img>
+                        <img className="img-trail2" src={db11} alt="aston martin db11"></img>
+                        <img className="img-trail2" src={dyson} alt="dyson electric vehicle concept"></img>
+                        <img className="img-trail2" src={damper} alt="screenshot of formula student adjustable damper program"></img>
                         <div className="img-drag2" style={{backgroundImage: `url(${engineer})`}}></div>
                     </div>
                     <div className="img-wrap">

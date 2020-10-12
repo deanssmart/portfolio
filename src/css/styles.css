@@ -1,4 +1,4 @@
 @import "./_settings.css";
 @import "./_typography.css";
-@import "./base.css";
-@import "./demo8.css";
+@import "./_layout.css";
+@import "./_images.css";
