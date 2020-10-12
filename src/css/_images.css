@@ -38,9 +38,9 @@
 }
 
 .img-wrap:active > * {
-	filter: drop-shadow(0 0 5rem var(--siteYellow));
-	-webkit-filter: drop-shadow(0 0 5rem var(--siteYellow));
-	-moz-filter: drop-shadow(0 0 5rem var(--siteYellow));
+	filter: drop-shadow(0 0 3rem var(--siteYellow));
+	-webkit-filter: drop-shadow(0 0 3rem var(--siteYellow));
+	-moz-filter: drop-shadow(0 0 3rem var(--siteYellow));
 }
 
 .img-trail {
@@ -68,9 +68,9 @@
 }
 
 .img-wrap2:active > * {
-	filter: drop-shadow(0 0 5rem var(--siteYellow));
-	-webkit-filter: drop-shadow(0 0 5rem var(--siteYellow));
-	-moz-filter: drop-shadow(0 0 5rem var(--siteYellow));
+	filter: drop-shadow(0 0 3rem var(--siteYellow));
+	-webkit-filter: drop-shadow(0 0 3rem var(--siteYellow));
+	-moz-filter: drop-shadow(0 0 3rem var(--siteYellow));
 }
 
 

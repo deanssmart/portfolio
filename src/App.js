@@ -10,6 +10,7 @@ const App = () => (
     <img className="logo" src={logo} alt="Dean Smart Logo"></img>
   </a>
   <Skills /> 
+  <div className="projects"></div>
 </>
 );
 

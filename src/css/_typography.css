@@ -12,6 +12,10 @@
     src: url("../assets/fonts/QuiveraRegular.otf");
   }
 
+  .no-wrap {
+    white-space: nowrap;
+  }
+
   .title {
 	font-size: 5rem;
 	font-family: var(--specialFont);

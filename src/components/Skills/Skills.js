@@ -39,6 +39,7 @@ class Skills extends Component {
             <div className="content">
             <Header />
                 <div className="content__drag-area">
+                    <span className="spacer"></span>
                     <div className="img-wrap2">
                         <img className="img-trail2" src={wilson} alt="colour drawing of a dog"></img>
                         <img className="img-trail2" src={siam} alt="painting of a wedding with aeroplanes"></img>
@@ -65,7 +66,8 @@ class Skills extends Component {
                         <img className="img-trail" src={reactLogo} alt="React Logo"></img>
                         <img className="img-trail" src={jsLogo} alt="JS Logo"></img>
                         <div className="img-drag" style={{backgroundImage: `url(${coder})`}}></div>
-                    </div>                    
+                    </div>
+                    <p className="no-wrap"><span className="text-highlight">&lt;</span> Click <span className="text-highlight">&amp;</span> Drag</p>                
                  </div>
             </div>
             <p className="vertical">Scroll for Projects <span className="text-highlight">&gt;</span></p>
