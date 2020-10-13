@@ -37,7 +37,7 @@
 	color: var(--siteYellow);
 }
 
-  @media screen and (max-width: 42em) {
+  @media screen and (max-width: 45em) {
     .title {
         font-size: 3.5rem;
         text-align: center;
@@ -56,8 +56,10 @@
     /* border-radius: 0 0 5px 5px; */
     margin: 0 1rem 0 0;
     float: right;
+    -moz-transform: rotate(90deg) translate(100%,100%);
     -webkit-transform: rotate(90deg) translate(100%,100%);
             transform: rotate(90deg) translate(100%,100%);
     -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
             transform-origin: 100% 100%;
 }

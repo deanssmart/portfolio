@@ -22,7 +22,7 @@
     padding: 3rem;
 }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 45em) {
     .content__drag-area {
         align-items: center;
     }
