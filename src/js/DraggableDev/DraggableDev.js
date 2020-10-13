@@ -7,20 +7,20 @@ Draggabilly.prototype.positionDrag = Draggabilly.prototype.setLeftTop;
 // Image that gets dragged gets this zIndex value which then gets incremented
 let zIndex = 1;
 
-class DraggableArt {
+class DraggableDev {
     constructor(el) {
         // Image container
         this.DOM = {el: el};
         // The draggable element
-        this.DOM.draggable = this.DOM.el.querySelector('.img-drag');
+        this.DOM.draggable = this.DOM.el.querySelector('.img-drag3');
         this.boundingRect = this.DOM.draggable.getBoundingClientRect();
         // Image trails
-        this.DOM.trails = [...this.DOM.el.querySelectorAll('.img-trail')];
+        this.DOM.trails = [...this.DOM.el.querySelectorAll('.img-trail3')];
         this.trailsTotal = this.DOM.trails.length;
 
         // Dragging position
         this.draggingPos = {
-            previous: {x: -1000, y: -1000},
+            previous: {x: 1000, y: -1000},
             current: {x: 0, y: 0},
             amt: 0.13
         };
@@ -73,7 +73,7 @@ class DraggableArt {
         this.onPointerDown = () => {
             this.DOM.el.style.zIndex = zIndex++;
             this.outerScale.current = 0.8;
-            const radius = (this.boundingRect.width + this.boundingRect.height)/1.5;
+            const radius = (this.boundingRect.width + this.boundingRect.height)/2.5;
             for (let i = 0; i <= this.trailsTotal - 1; ++i) {
                 this.trailsTranslation[i].random = {
                     //x: getRandomFloat(-this.boundingRect.width*.85,this.boundingRect.width*.85), 
@@ -83,7 +83,7 @@ class DraggableArt {
                 };
                 this.trailsTranslation[i].current.x = this.draggie.position.x - parseFloat(this.trailsTranslation[i].random.x);
                 this.trailsTranslation[i].current.y = this.draggie.position.y - parseFloat(this.trailsTranslation[i].random.y);
-                this.trailsScale[i].current = 1;
+                this.trailsScale[i].current = 0.5;
                 this.trailsRotation[i].current = getRandomFloat(-10,10);
             }
             document.body.style.cursor = 'grabbing';
@@ -131,7 +131,7 @@ class DraggableArt {
         const draggingDistance = distance(this.draggingPos.previous.x, this.draggingPos.previous.y, this.draggingPos.current.x, this.draggingPos.current.y);
         
         for (let i = 0; i <= this.trailsTotal - 1; ++i) {
-            const blurVal = clamp(map(draggingDistance, 0, 600, 0, 20), 0, 20);
+            const blurVal = clamp(map(draggingDistance, 0, 400, 0, 20), 0, 20);
             this.DOM.trails[i].style.filter = `blur(${blurVal}px`;
             this.DOM.trails[i].style.transform = `translate3d(${this.trailsTranslation[i].previous.x}px,${this.trailsTranslation[i].previous.y}px,0) scale3d(${this.trailsScale[i].previous},${this.trailsScale[i].previous},1) rotate3d(0,0,1,${this.trailsRotation[i].previous}deg)`;
         }
@@ -140,4 +140,4 @@ class DraggableArt {
     }
 }
 
-export default DraggableArt;
+export default DraggableDev;

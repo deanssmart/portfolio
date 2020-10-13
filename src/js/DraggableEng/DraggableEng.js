@@ -7,20 +7,20 @@ Draggabilly.prototype.positionDrag = Draggabilly.prototype.setLeftTop;
 // Image that gets dragged gets this zIndex value which then gets incremented
 let zIndex = 1;
 
-class DraggableArt {
+class DraggableEng {
     constructor(el) {
         // Image container
         this.DOM = {el: el};
         // The draggable element
-        this.DOM.draggable = this.DOM.el.querySelector('.img-drag');
+        this.DOM.draggable = this.DOM.el.querySelector('.img-drag2');
         this.boundingRect = this.DOM.draggable.getBoundingClientRect();
         // Image trails
-        this.DOM.trails = [...this.DOM.el.querySelectorAll('.img-trail')];
+        this.DOM.trails = [...this.DOM.el.querySelectorAll('.img-trail2')];
         this.trailsTotal = this.DOM.trails.length;
 
         // Dragging position
         this.draggingPos = {
-            previous: {x: -1000, y: -1000},
+            previous: {x: 0, y: -1000},
             current: {x: 0, y: 0},
             amt: 0.13
         };
@@ -140,4 +140,4 @@ class DraggableArt {
     }
 }
 
-export default DraggableArt;
+export default DraggableEng;

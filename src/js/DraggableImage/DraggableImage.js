@@ -30,7 +30,7 @@ class DraggableImage {
 
         // Dragging position
         this.draggingPos = {
-            previous: {x: 0, y: 0},
+            previous: {x: 0, y: -1000},
             current: {x: 0, y: 0},
             amt: 0.13
         };
