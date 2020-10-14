@@ -26,7 +26,6 @@ import patent from '../../assets/images/patent.png';
 import dyson from '../../assets/images/dyson.png';
 import db11 from '../../assets/images/db11.png';
 import damper from '../../assets/images/damper.png';
-import Header from '../Header/Header';
 
 class Skills extends Component {
     constructor(props) {
@@ -66,7 +65,6 @@ class Skills extends Component {
         return (
             <>          
             <div className="content">
-            <Header />
             { artText ? <p>I have a passion for fine art specialsing in oil painting and portraiture</p> : null }
                 <div className="content__drag-area">
                     <span className="spacer"></span>
@@ -77,6 +75,7 @@ class Skills extends Component {
                         <img className="img-trail" src={ronnie} alt="digital colour drawing of body builder"></img>
                         <img className="img-trail" src={oldMan} alt="colour painting of old mans face"></img>
                         <img className="img-trail" src={her} alt="colour painting of ladies face"></img>
+                        {/* <div className="img-trail"><p>This is a test</p></div> */}
                         <div className="img-drag" style={{backgroundImage: `url(${art})`}}></div>
                     </div>
                     <div className="img-wrap2">
@@ -97,7 +96,7 @@ class Skills extends Component {
                         <img className="img-trail3" src={jsLogo} alt="JS Logo"></img>
                         <div className="img-drag3" style={{backgroundImage: `url(${coder})`}} onClick={this.handleClickDev}></div>
                     </div>
-                    <p className="no-wrap"><span className="text-highlight">&lt;</span> Click <span className="text-highlight">&amp;</span> Drag</p>                
+                    <p className="click-drag"><span className="text-highlight">&lt;</span> Click <span className="text-highlight">&amp;</span> Drag</p>                
                  </div>
             </div>
             <p className="vertical">Scroll for Projects <span className="text-highlight">&gt;</span></p>
