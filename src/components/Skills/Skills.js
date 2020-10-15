@@ -28,44 +28,11 @@ import db11 from '../../assets/images/db11.png';
 import damper from '../../assets/images/damper.png';
 
 class Skills extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {artText: false,
-                      engText: false,
-                      devText: false};
-
-        this.handleClickArt = this.handleClickArt.bind(this);
-        this.handleClickEng = this.handleClickEng.bind(this);
-        this.handleClickDev = this.handleClickDev.bind(this);
-
-    };
-
-    handleClickArt() {
-        this.setState({artText: true,
-                       engText: false,
-                       devText: false});
-    }
-
-    handleClickEng() {
-        this.setState({artText: false,
-                       engText: true,
-                       devText: false});
-    }
-
-    handleClickDev() {
-        this.setState({artText: false,
-                       engText: false,
-                       devText: true});
-    }
-
-    render() {
-        const { artText, engText, devText } = this.state;
+     render() {
 
         return (
             <>          
             <div className="content">
-            { artText ? <p>I have a passion for fine art specialsing in oil painting and portraiture</p> : null }
                 <div className="content__drag-area">
                     <span className="spacer"></span>
                     <div className="img-wrap">
@@ -75,7 +42,6 @@ class Skills extends Component {
                         <img className="img-trail" src={ronnie} alt="digital colour drawing of body builder"></img>
                         <img className="img-trail" src={oldMan} alt="colour painting of old mans face"></img>
                         <img className="img-trail" src={her} alt="colour painting of ladies face"></img>
-                        {/* <div className="img-trail"><p>This is a test</p></div> */}
                         <div className="img-drag" style={{backgroundImage: `url(${art})`}}></div>
                     </div>
                     <div className="img-wrap2">
@@ -85,7 +51,7 @@ class Skills extends Component {
                         <img className="img-trail2" src={db11} alt="aston martin db11"></img>
                         <img className="img-trail2" src={dyson} alt="dyson electric vehicle concept"></img>
                         <img className="img-trail2" src={damper} alt="screenshot of formula student adjustable damper program"></img>
-                        <div className="img-drag2" style={{backgroundImage: `url(${engineer})`}} onClick={this.handleClickEng}></div>
+                        <div className="img-drag2" style={{backgroundImage: `url(${engineer})`}}></div>
                     </div>
                     <div className="img-wrap3">
                         <img className="img-trail3" src={htmlLogo} alt="HTML Logo"></img>
@@ -94,7 +60,7 @@ class Skills extends Component {
                         <img className="img-trail3" src={laravelLogo} alt="Laravel Logo"></img>
                         <img className="img-trail3" src={reactLogo} alt="React Logo"></img>
                         <img className="img-trail3" src={jsLogo} alt="JS Logo"></img>
-                        <div className="img-drag3" style={{backgroundImage: `url(${coder})`}} onClick={this.handleClickDev}></div>
+                        <div className="img-drag3" style={{backgroundImage: `url(${coder})`}}></div>
                     </div>
                     <p className="click-drag"><span className="text-highlight">^</span> Click <span className="text-highlight">&amp;</span> Drag</p>                
                  </div>

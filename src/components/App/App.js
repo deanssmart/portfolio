@@ -1,20 +1,18 @@
 import React from 'react';
-import './App.css';
-// import Nav from './components/Nav/Nav';
-import Header from './components/Header/Header';
-import Skills from './components/Skills';
-import Card from './components/Card/Card';
-import frankenstyle from '../src/assets/images/frankenstyle.jpg';
-import tourn from '../src/assets/images/tourn.jpg';
-import Nav from './components/Nav/Nav';
+import Nav from '../Nav';
+import Header from '../Header/Header';
+import Skills from '../Skills';
+import Card from '../Card/Card';
+import frankenstyle from '../../assets/images/frankenstyle.jpg';
+import tourn from '../../assets/images/tourn.jpg';
 
-const App = () => (
+
+const App = ({ home, projects, contact }) => (
 <>
   <Nav />
   <Header />
-  <Skills /> 
-  {/* <p>Click for Projects <span className="text-highlight">&gt;</span></p> */}
-  {/* <div className="projects"> */}
+  { home ? <Skills /> : null }
+  { projects ? 
   <div className="flex">
  <Card appName="FRANKENSTYLE"
         appImage={frankenstyle}
@@ -29,6 +27,7 @@ const App = () => (
         appLinkLive="https://deanssmart.github.io/TOURN/"
   />
   </div>
+  : null }
   
 
   {/* </div> */}
