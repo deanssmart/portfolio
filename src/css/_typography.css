@@ -21,6 +21,11 @@
   margin-top: 15rem;
 }
 
+.hover-info {
+  margin-top: 7rem;
+  text-align: center;
+}
+
 @media screen and (max-width: 45em) {
     .click-drag {
       margin-top: 0;

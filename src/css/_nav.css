@@ -76,3 +76,8 @@ button:active {
         margin: 0rem auto;
     }
 }
+
+.active {
+    background-size: 87% 5%;
+    color: var(--colourText);
+}

@@ -25,7 +25,8 @@ class Nav extends Component {
         this.props.handleContact();
     };
 
-    render() {      
+    render() {  
+        const { home, projects, contact } = this.props;    
 
         return (
             <nav className="nav">
@@ -33,15 +34,27 @@ class Nav extends Component {
                 <img className="logo" src={logo} alt="Dean Smart Logo"></img>
             </a>
             <div className="nav-links">
-                <button type="button" onClick={this.handleClickHome}>
+                <button 
+                    type="button"
+                    onClick={this.handleClickHome}
+                    className={home ? "active" : ""}
+                >
                     Home
                 </button>
                 <span> . </span>
-                <button type="button" onClick={this.handleClickProjects}>
+                <button 
+                    type="button"
+                    onClick={this.handleClickProjects}
+                    className={projects ? "active" : ""}
+                >
                     Projects
                 </button>
                 <span> . </span>
-                <button type="button" onClick={this.handleClickContact}>
+                <button 
+                    type="button"
+                    onClick={this.handleClickContact}
+                    className={contact ? "active" : ""}
+                >
                     Contact
                 </button>
             </div>
