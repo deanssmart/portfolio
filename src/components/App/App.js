@@ -14,7 +14,7 @@ const App = ({ home, projects, contact }) => (
   { home ? <Skills /> : null }
   { projects ? 
   <>
-  <div className="flex">
+  <div className="projects">
     <Card appName="FRANKENSTYLE"
             appImage={frankenstyle}
             appDesc="Interactive four player Pictionary style game where players take it in turns to draw and guess randomized words."

@@ -5,7 +5,7 @@
 
 .container .card {
     position: relative;
-    width: 320px;
+    width: 300px;
     height: 450px;
     border-radius: 20px;
     overflow: hidden;
@@ -52,14 +52,13 @@
     position: absolute;
     top: 40%;
     transform: translateY(-50%);
-    z-index: 10000;
     width: 100%;
     height: 220px;
     transition: 0.5s;
 }
 
 .container .card:hover .imgBox {
-    top: -3%;
+    top: -4%;
     transform: translateY(0%);
     filter: drop-shadow(0 0 0.5rem var(--colourBg));
 }
@@ -70,8 +69,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
-    width: 270px;
-    /* filter: drop-shadow(0 0 0.5rem var(--colourBg)); */
+    width: 265px;
     border: 2px solid var(--siteYellow);
     transition: 0.5s;
 }

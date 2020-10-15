@@ -2,6 +2,10 @@
     overflow: hidden;
 }
 
+.spacer {
+    width: 141px;
+}
+
 .content {
 	display: flex;
 	position: relative;
@@ -22,26 +26,22 @@
     padding: 3rem;
 }
 
-@media screen and (max-width: 45em) {
-    .content__drag-area {
-        align-items: center;
-    }
-}
-
-.spacer {
-    width: 141px;
-}
-
 .projects {
-    height: 125vh;
-}
-
-/* .heightSpacer {
-	height: 40vh;
-} */
-
-.flex {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 }
+
+@media screen and (max-width: 45em) {
+    .content__drag-area {
+        align-items: center;
+	}
+	.projects {
+		flex-direction: column;
+	}
+}
+
+
+
+
+
