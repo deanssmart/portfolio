@@ -34,10 +34,6 @@ button {
     background-size: 0% 5%;
     background-position: 50% 80%;
     transition: 0.25s ease-in-out;
-    /* transition: background 250ms ease-in-out, 
-                transform 150ms ease;
-    -webkit-appearance: none;
-    -moz-appearance: none; */
 }
 
 button:hover,
@@ -54,38 +50,9 @@ button:active {
     transform: scale(0.9);
 }
 
-/* .nav-links > button {
-    text-decoration: none;
-    color: var(--siteYellow);
-    background-image: linear-gradient(90deg, var(--siteYellow) 0%, var(--siteYellow) 100%);
-    background-repeat: no-repeat;
-    background-size: 0% 10%;
-    background-position: 50% 80%;
-    transition: 0.25s ease-in-out;
-}
-
-.nav-links > a:hover {
-    background-size: 60% 10%;
-    color: var(--colourText);
-} */
-
 @media screen and (max-width: 45em) {
-    .header {
-        margin: 0 0.5rem;        
-    }
-    .header-title {
-        font-size: 3.5rem;
-        text-align: center;
-        margin: 0;
-    }
-    .header-sub {
-        text-align: center;
-        font-size: 1.25rem;
-        margin: 0;
-    }
 	.logo {
 		width: 35px;
-		/* margin: 0.5rem 0.5rem 1rem 0.5rem; */
     }
     .nav {
         margin: 1rem 0 4rem 0;
@@ -94,6 +61,18 @@ button:active {
         font-size: 1rem;
     }
     button {
+        /* padding: 1rem 0rem; */
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 22em) {
+    .nav {
+        display: block;
+        margin: 1rem 0 2rem 0;
+    }
+    .nav-links {
+        width: 270px;
+        margin: 0rem auto;
     }
 }

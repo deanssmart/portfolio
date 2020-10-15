@@ -15,7 +15,7 @@ const App = () => (
   <Skills /> 
   {/* <p>Click for Projects <span className="text-highlight">&gt;</span></p> */}
   {/* <div className="projects"> */}
-  {/* <div className="flex">
+  <div className="flex">
  <Card appName="FRANKENSTYLE"
         appImage={frankenstyle}
         appDesc="Interactive four player Pictionary style game where players take it in turns to draw and guess randomized words."
@@ -28,7 +28,7 @@ const App = () => (
         appLinkCode="https://github.com/deanssmart/TOURN"
         appLinkLive="https://deanssmart.github.io/TOURN/"
   />
-  </div> */}
+  </div>
   
 
   {/* </div> */}
