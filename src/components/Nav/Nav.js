@@ -8,11 +8,11 @@ const Nav = () => (
                 <img className="logo" src={logo} alt="Dean Smart Logo"></img>
             </a>
             <div className="nav-links">
-                <a>Home</a>
+                <button>Home</button>
                 <span> . </span>
-                <a>Projects</a>
+                <button>Projects</button>
                 <span> . </span>
-                <a>Contact</a>
+                <button>Contact</button>
             </div>
 
         </nav>

@@ -6,7 +6,7 @@
 	display: flex;
 	position: relative;
 	flex-direction: column;
-	height: calc(100vh - 240px);
+	height: calc(100vh - 350px);
 	position: relative;
 	justify-content: flex-start;
 }
