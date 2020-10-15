@@ -96,10 +96,9 @@ class Skills extends Component {
                         <img className="img-trail3" src={jsLogo} alt="JS Logo"></img>
                         <div className="img-drag3" style={{backgroundImage: `url(${coder})`}} onClick={this.handleClickDev}></div>
                     </div>
-                    <p className="click-drag"><span className="text-highlight">&lt;</span> Click <span className="text-highlight">&amp;</span> Drag</p>                
+                    <p className="click-drag"><span className="text-highlight">^</span> Click <span className="text-highlight">&amp;</span> Drag</p>                
                  </div>
             </div>
-            <p className="vertical">Scroll for Projects <span className="text-highlight">&gt;</span></p>
         </>    
         );
     };

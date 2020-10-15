@@ -1,22 +1,10 @@
-.logo {
-	width: 45px;
-	margin: 2rem 2.5rem;
-}
-
-@media screen and (max-width: 45em) {
-	.logo {
-		width: 35px;
-		margin: 0.5rem 0.5rem 1rem 0.5rem;
-	}
-}
-
 .img-wrap {
 	width: 180px;
 	height: 250px;
 	max-width: 100%;
 	position: relative;
 	display: flex;
-    pointer-events: none;
+	pointer-events: none;
     /* margin: 1rem; */
 }
 
@@ -143,6 +131,15 @@
 		justify-content: end;
         position: relative;
         height: auto;
+	}
+	.img-wrap {
+		height: 200px;
+	}
+	.img-wrap2 {
+		height: 200px;
+	}
+	.img-wrap2 {
+		height: 200px;
 	}
 	.img-drag {
 		transform: scale3d(0.7, 0.7, 0.7);

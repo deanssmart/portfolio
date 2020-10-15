@@ -3,21 +3,20 @@ import './App.css';
 // import Nav from './components/Nav/Nav';
 import Header from './components/Header/Header';
 import Skills from './components/Skills';
-import logo from '../src/assets/images/logo5.png';
 import Card from './components/Card/Card';
 import frankenstyle from '../src/assets/images/frankenstyle.jpg';
 import tourn from '../src/assets/images/tourn.jpg';
+import Nav from './components/Nav/Nav';
 
 const App = () => (
 <>
-  <a href="/">
-    <img className="logo" src={logo} alt="Dean Smart Logo"></img>
-  </a>
+  <Nav />
   <Header />
   <Skills /> 
+  {/* <p>Click for Projects <span className="text-highlight">&gt;</span></p> */}
   {/* <div className="projects"> */}
-  <div className="flex">
-  <Card appName="FRANKENSTYLE"
+  {/* <div className="flex">
+ <Card appName="FRANKENSTYLE"
         appImage={frankenstyle}
         appDesc="Interactive four player Pictionary style game where players take it in turns to draw and guess randomized words."
         appLinkCode="https://github.com/deanssmart/frankenstyle"
@@ -29,7 +28,8 @@ const App = () => (
         appLinkCode="https://github.com/deanssmart/TOURN"
         appLinkLive="https://deanssmart.github.io/TOURN/"
   />
-  </div>
+  </div> */}
+  
 
   {/* </div> */}
 

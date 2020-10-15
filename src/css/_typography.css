@@ -3,52 +3,25 @@
     font-weight: normal;
     font-style: normal;
     src: url("../assets/fonts/PuntaLight.otf");
-  }
-
-  @font-face {
-    font-family: "Quivera";
-    font-weight: normal;
-    font-style: normal;
-    src: url("../assets/fonts/QuiveraRegular.otf");
-  }
-
-  .click-drag {
-    white-space: nowrap;
-    margin-top: 12rem;
-  }
-
-  .title {
-	font-size: 5rem;
-	font-family: var(--specialFont);
-	font-weight: var(--baseFontWt);
-	margin: 0 2.5rem;
-	position: relative;
-	pointer-events: none;
-	/* z-index: 1000; */
-	color: var(--colourText);
 }
 
-.title-sub {
-	font-family: var(--specialFont);
-    margin: 0 2.5rem;
-    /* z-index: 1000; */
+@font-face {
+  font-family: "Quivera";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../assets/fonts/QuiveraRegular.otf");
 }
 
 .text-highlight {
-	color: var(--siteYellow);
+  color: var(--siteYellow);
 }
 
-  @media screen and (max-width: 45em) {
-    .title {
-        font-size: 3.5rem;
-        text-align: center;
-        margin: 0;
-    }
-    .title-sub {
-        text-align: center;
-        font-size: 1.25rem;
-        margin: 0;
-    }
+.click-drag {
+  white-space: nowrap;
+  margin-top: 15rem;
+}
+
+@media screen and (max-width: 45em) {
     .click-drag {
       margin-top: 0;
     }
