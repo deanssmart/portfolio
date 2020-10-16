@@ -16,7 +16,7 @@ import reactLogo from '../../assets/images/react.webp';
 import jsLogo from '../../assets/images/js.webp';
 import liam from '../../assets/images/liam.webp';
 import siam from '../../assets/images/siam.webp';
-// import wilson from '../../assets/images/wilson.webp';
+import wilson from '../../assets/images/wilson.webp';
 import ronnie from '../../assets/images/ronnie.webp';
 import oldMan from '../../assets/images/oldMan.webp';
 import her from '../../assets/images/her.webp';
@@ -37,7 +37,7 @@ class Skills extends Component {
                 <div className="content__drag-area">
                     <span className="spacer"></span>
                     <div className="img-wrap">
-                        <img className="img-trail" src={require('../../assets/images/wilson.webp')} alt="colour drawing of a dog"></img>
+                        <img className="img-trail" src={wilson} alt="colour drawing of a dog"></img>
                         <img className="img-trail" src={siam} alt="painting of a wedding with aeroplanes"></img>
                         <img className="img-trail" src={liam} alt="greyscale painting of bearded man"></img>
                         <img className="img-trail" src={ronnie} alt="digital colour drawing of body builder"></img>
