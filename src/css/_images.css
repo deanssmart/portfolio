@@ -5,7 +5,6 @@
 	position: relative;
 	display: flex;
 	pointer-events: none;
-    /* margin: 1rem; */
 }
 
 .img-wrap:hover > * {
@@ -48,7 +47,6 @@
 	position: relative;
 	display: flex;
     pointer-events: none;
-    /* margin: 1rem; */
 }
 
 .img-wrap2:hover > * {
@@ -91,7 +89,6 @@
 	position: relative;
 	display: flex;
     pointer-events: none;
-    /* margin: 1rem; */
 }
 
 .img-drag3 {
@@ -138,7 +135,7 @@
 	.img-wrap2 {
 		height: 200px;
 	}
-	.img-wrap2 {
+	.img-wrap3 {
 		height: 200px;
 	}
 	.img-drag {
@@ -152,13 +149,3 @@
 	}
 }
 
-/* .img-wrap {
-	flex: none;
-	
-}
-
-
-.img-wrap2 {
-	flex: none;
-
-} */

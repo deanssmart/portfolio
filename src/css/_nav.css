@@ -17,6 +17,13 @@
     white-space: nowrap;
 }
 
+.nav a:focus {
+    outline: none;
+    filter: drop-shadow(0 0 0.75rem var(--siteYellow));
+	-webkit-filter: drop-shadow(0 0 0.75rem var(--siteYellow));
+	-moz-filter: drop-shadow(0 0 0.75rem var(--siteYellow));
+}
+
 button {
     display: inline-block;
     border: none;

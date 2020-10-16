@@ -29,7 +29,15 @@
 .projects {
 	display: flex;
 	justify-content: space-evenly;
+	/* height: 70vh; */
 	align-items: center;
+}
+
+.contact {
+    display: flex;
+	justify-content: space-evenly;
+	height: 70vh;
+    align-items: center;
 }
 
 @media screen and (max-width: 45em) {
@@ -37,6 +45,10 @@
         align-items: center;
 	}
 	.projects {
+		flex-direction: column;
+	}
+	.contact {
+		margin-top: 2rem;
 		flex-direction: column;
 	}
 }

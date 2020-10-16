@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../../assets/images/logo5.png';
+import logo from '../../assets/images/logo.svg';
+
 
 class Nav extends Component {
     constructor(props) {
@@ -13,7 +14,7 @@ class Nav extends Component {
 
     handleClickHome() {
         window.location.reload(false);
-    };
+     };
 
     handleClickProjects(e) {
         e.preventDefault();
@@ -39,7 +40,7 @@ class Nav extends Component {
                     onClick={this.handleClickHome}
                     className={home ? "active" : ""}
                 >
-                    Home
+                    Skills
                 </button>
                 <span> . </span>
                 <button 

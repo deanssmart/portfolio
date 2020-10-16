@@ -28,6 +28,7 @@ import db11 from '../../assets/images/db11.png';
 import damper from '../../assets/images/damper.png';
 
 class Skills extends Component {
+
      render() {
 
         return (
