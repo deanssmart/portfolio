@@ -1,0 +1,24 @@
+.social {
+    margin: auto 0;
+    width: 10rem;
+    transition: 0.15s ease-out;
+}
+
+.social:hover {
+    filter: drop-shadow(0 0 0.75rem var(--siteYellow));
+	-webkit-filter: drop-shadow(0 0 0.75rem var(--siteYellow));
+	-moz-filter: drop-shadow(0 0 0.75rem var(--siteYellow));
+}
+
+.contact a:focus {
+    outline: none;
+    filter: drop-shadow(0 0 0.75rem var(--siteYellow));
+	-webkit-filter: drop-shadow(0 0 0.75rem var(--siteYellow));
+	-moz-filter: drop-shadow(0 0 0.75rem var(--siteYellow));
+}
+
+@media screen and (max-width: 45em) {
+    .social {
+        width: 5rem;
+    }
+}

@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+/* colours */
+
+:root {
+    --siteYellow: #fdbb41;
+    --colourText: #fff;
+    --colourBg: #000;
+}
+
+/* fonts  */
+
+:root {
+    --baseFont: Quivera, Tahoma, Verdana, sans-serif;
+    --baseFontWt: 400;
+    --boldFontWt: 800;
+    font-size: 14px;
+}
+
+body {
+	margin: 1rem;
+    --color-link: #594343;
+	--color-link-hover: #000;
+	color: var(--colourText);	
+	background-color: var(--colourBg);
+	font-family: var(--baseFont);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+}
+

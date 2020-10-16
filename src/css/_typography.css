@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Quivera";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../assets/fonts/QuiveraRegular.otf");
+  font-display: swap;
+}
+
+.text-highlight {
+  color: var(--siteYellow);
+}
+
+.click-drag {
+  white-space: nowrap;
+  margin-top: 15rem;
+}
+
+.hover-info {
+  margin-top: 7rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 45em) {
+    .click-drag {
+      margin-top: 0;
+    }
+}
