@@ -25,7 +25,7 @@ const App = ({ home, projects, contact }) => (
       
       <Card appName="TOURN"
             appImage={tourn}
-            appDesc="Tron(esque) themed app which randomly creates pairings for a tournament bracket from a list of names collected from the user."
+            appDesc="Tron(esque) themed app which randomly creates pairings for a tournament bracket from user collected data."
             appLinkCode="https://github.com/deanssmart/TOURN"
             appLinkLive="https://deanssmart.github.io/TOURN/"
       />
