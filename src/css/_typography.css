@@ -1,15 +1,9 @@
 @font-face {
-    font-family: "Punta";
-    font-weight: normal;
-    font-style: normal;
-    src: url("../assets/fonts/PuntaLight.otf");
-}
-
-@font-face {
   font-family: "Quivera";
   font-weight: normal;
   font-style: normal;
   src: url("../assets/fonts/QuiveraRegular.otf");
+  font-display: swap;
 }
 
 .text-highlight {

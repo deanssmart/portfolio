@@ -3,8 +3,8 @@ import Nav from '../Nav';
 import Header from '../Header/Header';
 import Skills from '../Skills';
 import Card from '../Card/Card';
-import frankenstyle from '../../assets/images/frankenstyle.jpg';
-import tourn from '../../assets/images/tourn.jpg';
+import frankenstyle from '../../assets/images/frankenstyle.webp';
+import tourn from '../../assets/images/tourn.webp';
 import Contact from '../Contact/Contact';
 
 
