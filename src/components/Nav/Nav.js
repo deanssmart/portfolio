@@ -31,7 +31,7 @@ class Nav extends Component {
 
         return (
             <nav className="nav">
-            <a href="/">
+            <a href="https://deanssmart.github.io/portfolio/">
                 <img className="logo" src={logo} alt="Dean Smart Logo"></img>
             </a>
             <div className="nav-links">
