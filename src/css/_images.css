@@ -5,9 +5,6 @@
 	position: relative;
 	display: flex;
 	pointer-events: none;
-	-webkit-user-select: none;  
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	-webkit-tap-highlight-color: transparent;
 }
 
 .img-wrap:hover > * {
@@ -50,9 +47,6 @@
 	position: relative;
 	display: flex;
 	pointer-events: none;
-	-webkit-user-select: none;  
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	-webkit-tap-highlight-color: transparent;
 }
 
 .img-wrap2:hover > * {
@@ -95,9 +89,6 @@
 	position: relative;
 	display: flex;
 	pointer-events: none;
-	-webkit-user-select: none;  
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	-webkit-tap-highlight-color: transparent;
 }
 
 .img-drag3 {
