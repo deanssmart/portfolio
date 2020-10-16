@@ -16,14 +16,12 @@
 
 :root {
     --baseFont: Quivera, Tahoma, Verdana, sans-serif;
-    --specialFont: Quivera, Tahoma, Verdana, sans-serif;
     --baseFontWt: 400;
     --boldFontWt: 800;
     font-size: 14px;
 }
 
 body {
-    /* display: flex; */
 	margin: 1rem;
     --color-link: #594343;
 	--color-link-hover: #000;

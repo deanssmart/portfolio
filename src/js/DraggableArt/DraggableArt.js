@@ -76,9 +76,8 @@ class DraggableArt {
             const radius = (this.boundingRect.width + this.boundingRect.height)/1.5;
             for (let i = 0; i <= this.trailsTotal - 1; ++i) {
                 this.trailsTranslation[i].random = {
-                    //x: getRandomFloat(-this.boundingRect.width*.85,this.boundingRect.width*.85), 
                     x: Math.round(radius * Math.cos(2*(i+1)*Math.PI/this.trailsTotal)),
-                    //y: getRandomFloat(-this.boundingRect.height*.85,this.boundingRect.height*.85)
+
                     y: Math.round(radius * Math.sin(2*(i+1)*Math.PI/this.trailsTotal))
                 };
                 this.trailsTranslation[i].current.x = this.draggie.position.x - parseFloat(this.trailsTranslation[i].random.x);
