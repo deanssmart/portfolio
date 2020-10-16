@@ -36,14 +36,14 @@ class Skills extends Component {
             <div className="content">
                 <div className="content__drag-area">
                     <span className="spacer"></span>
-                    <div className="img-wrap">
-                        <img className="img-trail" src={wilson} alt="colour drawing of a dog"></img>
-                        <img className="img-trail" src={siam} alt="painting of a wedding with aeroplanes"></img>
-                        <img className="img-trail" src={liam} alt="greyscale painting of bearded man"></img>
-                        <img className="img-trail" src={ronnie} alt="digital colour drawing of body builder"></img>
-                        <img className="img-trail" src={oldMan} alt="colour painting of old mans face"></img>
-                        <img className="img-trail" src={her} alt="colour painting of ladies face"></img>
-                        <div className="img-drag" style={{backgroundImage: `url(${art})`}}></div>
+                    <div className="img-wrap3">
+                        <img className="img-trail3" src={htmlLogo} alt="HTML Logo"></img>
+                        <img className="img-trail3" src={cssLogo} alt="CSS Logo"></img>
+                        <img className="img-trail3" src={phpLogo} alt="php Logo"></img>
+                        <img className="img-trail3" src={laravelLogo} alt="Laravel Logo"></img>
+                        <img className="img-trail3" src={reactLogo} alt="React Logo"></img>
+                        <img className="img-trail3" src={jsLogo} alt="JS Logo"></img>
+                        <div className="img-drag3" style={{backgroundImage: `url(${coder})`}}></div>
                     </div>
                     <div className="img-wrap2">
                         <img className="img-trail2" src={fs} alt="formula student racecar"></img>
@@ -54,14 +54,14 @@ class Skills extends Component {
                         <img className="img-trail2" src={damper} alt="screenshot of formula student adjustable damper program"></img>
                         <div className="img-drag2" style={{backgroundImage: `url(${engineer})`}}></div>
                     </div>
-                    <div className="img-wrap3">
-                        <img className="img-trail3" src={htmlLogo} alt="HTML Logo"></img>
-                        <img className="img-trail3" src={cssLogo} alt="CSS Logo"></img>
-                        <img className="img-trail3" src={phpLogo} alt="php Logo"></img>
-                        <img className="img-trail3" src={laravelLogo} alt="Laravel Logo"></img>
-                        <img className="img-trail3" src={reactLogo} alt="React Logo"></img>
-                        <img className="img-trail3" src={jsLogo} alt="JS Logo"></img>
-                        <div className="img-drag3" style={{backgroundImage: `url(${coder})`}}></div>
+                    <div className="img-wrap">
+                        <img className="img-trail" src={wilson} alt="colour drawing of a dog"></img>
+                        <img className="img-trail" src={siam} alt="painting of a wedding with aeroplanes"></img>
+                        <img className="img-trail" src={liam} alt="greyscale painting of bearded man"></img>
+                        <img className="img-trail" src={ronnie} alt="digital colour drawing of body builder"></img>
+                        <img className="img-trail" src={oldMan} alt="colour painting of old mans face"></img>
+                        <img className="img-trail" src={her} alt="colour painting of ladies face"></img>
+                        <div className="img-drag" style={{backgroundImage: `url(${art})`}}></div>
                     </div>
                     <p className="click-drag"><span className="text-highlight">^</span> Click <span className="text-highlight">&amp;</span> Drag</p>                
                  </div>

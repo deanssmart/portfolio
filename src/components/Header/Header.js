@@ -4,11 +4,11 @@ const Header = () => (
     <header className="header">
         <h1 className="header-title">DEAN <span className="text-highlight">&lt;SMART&gt;</span></h1>
         <h2 className="header-sub">
-            Artist
+            Developer
             <span className="text-highlight"> . </span>
             Engineer
             <span className="text-highlight"> . </span>
-            Developer
+            Artist
         </h2>
     </header>
 );
