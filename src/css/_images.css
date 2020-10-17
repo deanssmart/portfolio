@@ -126,8 +126,8 @@
 	.content__drag-area {
 		flex-direction: column;
 		justify-content: end;
-        position: relative;
-        height: auto;
+		height: auto;
+		padding: 2rem;
 	}
 	.img-wrap {
 		height: 200px;

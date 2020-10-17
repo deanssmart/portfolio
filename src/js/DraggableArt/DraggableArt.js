@@ -1,3 +1,15 @@
+/**
+* modified version of
+* draggableImage.js
+* http://www.codrops.com
+*
+* Licensed under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 
+* Copyright 2020, Codrops
+* http://www.codrops.com
+*/
+
 import { map, lerp, clamp, distance, getRandomFloat } from '../MathUtils';
 const Draggabilly = require('draggabilly');
 
