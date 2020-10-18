@@ -40,17 +40,18 @@
     align-items: center;
 }
 
-@media screen and (max-width: 45em) {
-    .content__drag-area {
-        align-items: center;
-	}
+@media screen and (max-width: 40em) {
 	.projects {
 		flex-direction: column;
 	}
+}
+
+@media screen and (max-width: 30em) {
 	.contact {
 		flex-direction: column;
 	}
 }
+
 
 
 
