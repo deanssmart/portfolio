@@ -36,8 +36,11 @@
 	top: 0;
 	left: 0;
 	opacity: 0.9;
-	border-radius: 1rem;
 	will-change: transform;
+}
+
+.img-trail > * {
+	border-radius: 1rem;
 }
 
 .img-wrap2 {
@@ -78,7 +81,6 @@
 	top: 0;
 	left: 0;
 	opacity: 0.9;
-	border-radius: 1rem;
 	will-change: transform;
 }
 
