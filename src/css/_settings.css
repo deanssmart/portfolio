@@ -22,6 +22,10 @@
 }
 
 body {
+	overflow-x: hidden; 
+}
+
+body {
 	margin: 1rem;
     --color-link: #594343;
 	--color-link-hover: #000;
