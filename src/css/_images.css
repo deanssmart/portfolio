@@ -124,7 +124,7 @@
 	will-change: transform;
 }
 
-@media screen and (max-width: 45em) {
+@media screen and (max-width: 54em) {
 	.content__drag-area {
 		flex-direction: column;
 		justify-content: end;
