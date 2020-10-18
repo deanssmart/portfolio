@@ -4,14 +4,18 @@ import React, { Component } from 'react';
 class Card extends Component {
 
     render() {
-        const { appName, appImage, appDesc, appLinkCode, appLinkLive } = this.props;
+        const { appName, appImage, appImagePng, appDesc, appLinkCode, appLinkLive } = this.props;
         return (
             <>
                 <div className="container">
                     <div className="card">
-                        <div className="imgBox">
-                            <img src={appImage} alt="screenshot of frankenstyle app"></img>
-                        </div>
+                        {/* <div className="imgBox"> */}
+                            <picture className="imgBox">   
+                                <source srcSet={appImage} type="image/webp" />
+                                <source srcSet={appImagePng} type="image/png" />
+                                <img src={appImage} alt={"screenshot of app homescreen"} />
+                            </picture>  
+                        {/* </div> */}
                         <div className="contentBox">
                             <h2>{appName}</h2>
                             <div className="description">

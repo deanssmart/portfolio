@@ -4,7 +4,9 @@ import Header from '../Header/Header';
 import Skills from '../Skills';
 import Card from '../Card/Card';
 import frankenstyle from '../../assets/images/frankenstyle.webp';
+import frankenstylePng from '../../assets/images/frankenstyle.png';
 import tourn from '../../assets/images/tourn.webp';
+import tournPng from '../../assets/images/tourn.png';
 import Contact from '../Contact/Contact';
 
 
@@ -18,6 +20,7 @@ const App = ({ home, projects, contact }) => (
     <div className="projects">
       <Card appName="FRANKENSTYLE"
               appImage={frankenstyle}
+              appImagePng={frankenstylePng}
               appDesc="Interactive four player Pictionary style game where players take it in turns to draw and guess randomized words."
               appLinkCode="https://github.com/deanssmart/frankenstyle"
               appLinkLive="https://deanssmart.github.io/frankenstyle/"
@@ -25,6 +28,7 @@ const App = ({ home, projects, contact }) => (
       
       <Card appName="TOURN"
             appImage={tourn}
+            appImagePng={tournPng}
             appDesc="Tron(esque) themed app which randomly creates pairings for a tournament bracket from user collected data."
             appLinkCode="https://github.com/deanssmart/TOURN"
             appLinkLive="https://deanssmart.github.io/TOURN/"
