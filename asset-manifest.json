@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.459af759.chunk.css",
-    "main.js": "/portfolio/static/js/main.a99e78bc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a99e78bc.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.3aed3979.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3aed3979.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.a90ab626.chunk.js": "/portfolio/static/js/2.a90ab626.chunk.js",
-    "static/js/2.a90ab626.chunk.js.map": "/portfolio/static/js/2.a90ab626.chunk.js.map",
+    "static/js/2.06172dd0.chunk.js": "/portfolio/static/js/2.06172dd0.chunk.js",
+    "static/js/2.06172dd0.chunk.js.map": "/portfolio/static/js/2.06172dd0.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.43e67c2eb62fca54e4a4e2636e59509d.js": "/portfolio/precache-manifest.43e67c2eb62fca54e4a4e2636e59509d.js",
+    "precache-manifest.04d9e933ab48032809800e8492d18e15.js": "/portfolio/precache-manifest.04d9e933ab48032809800e8492d18e15.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.459af759.chunk.css.map": "/portfolio/static/css/main.459af759.chunk.css.map",
-    "static/js/2.a90ab626.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a90ab626.chunk.js.LICENSE.txt",
+    "static/js/2.06172dd0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.06172dd0.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/portfolio/static/media/QuiveraRegular.8d752548.otf",
     "static/media/aeroblade.webp": "/portfolio/static/media/aeroblade.910649f2.webp",
     "static/media/aeroblade.png": "/portfolio/static/media/aeroblade.bc669aa9.png",
@@ -52,13 +52,15 @@
     "static/media/siam.png": "/portfolio/static/media/siam.6b02e39c.png",
     "static/media/tourn.webp": "/portfolio/static/media/tourn.46cf1922.webp",
     "static/media/tourn.png": "/portfolio/static/media/tourn.4f970b8c.png",
+    "static/media/vet.webp": "/portfolio/static/media/vet.397e1cae.webp",
+    "static/media/vet.png": "/portfolio/static/media/vet.de91a8d9.png",
     "static/media/wilson.webp": "/portfolio/static/media/wilson.4a1d4adf.webp",
     "static/media/wilson.png": "/portfolio/static/media/wilson.6539d57a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.a90ab626.chunk.js",
+    "static/js/2.06172dd0.chunk.js",
     "static/css/main.459af759.chunk.css",
-    "static/js/main.a99e78bc.chunk.js"
+    "static/js/main.3aed3979.chunk.js"
   ]
 }
