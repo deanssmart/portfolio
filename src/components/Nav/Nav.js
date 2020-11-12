@@ -31,9 +31,15 @@ class Nav extends Component {
 
         return (
             <nav className="nav">
+            <div className="container-logo">
             <a href="https://deanssmart.github.io/portfolio/">
                 <img className="logo" src={logo} alt="Dean Smart Logo"></img>
             </a>
+            <a className="kata" href="https://www.codewars.com/users/deanssmart/">
+                <img src="https://www.codewars.com/users/deanssmart/badges/micro" alt="Dean CodeWars Kata Rank"></img>
+            </a>
+            </div>
+
             <div className="nav-links">
                 <button 
                     type="button"

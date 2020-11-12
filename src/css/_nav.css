@@ -11,6 +11,16 @@
     margin: 1rem 0;
 }
 
+.container-logo {
+    display: flex;
+}
+
+.kata {
+	align-self: center;
+    margin-left: 1.5rem;
+    transition: 0.15s ease-in-out;
+}
+
 .nav-links {
     align-self: center;
     font-size: 1.5rem;
@@ -18,16 +28,16 @@
 }
 
 .nav a:hover {
-    filter: drop-shadow(0 0 0.75rem var(--siteYellow));
-	-webkit-filter: drop-shadow(0 0 0.75rem var(--siteYellow));
-	-moz-filter: drop-shadow(0 0 0.75rem var(--siteYellow));
+    filter: drop-shadow(0 0 2.2rem var(--siteYellow));
+	-webkit-filter: drop-shadow(0 0 2.2rem var(--siteYellow));
+	-moz-filter: drop-shadow(0 0 2.2rem var(--siteYellow));
 }
 
 .nav a:focus {
     outline: none;
-    filter: drop-shadow(0 0 0.75rem var(--siteYellow));
-	-webkit-filter: drop-shadow(0 0 0.75rem var(--siteYellow));
-	-moz-filter: drop-shadow(0 0 0.75rem var(--siteYellow));
+    filter: drop-shadow(0 0 0.2rem var(--siteYellow));
+	-webkit-filter: drop-shadow(0 0 0.2rem var(--siteYellow));
+	-moz-filter: drop-shadow(0 0 0.2rem var(--siteYellow));
 }
 
 button {
@@ -77,7 +87,7 @@ button:active {
     }
 }
 
-@media screen and (max-width: 22em) {
+@media screen and (max-width: 32em) {
     .nav {
         display: block;
         margin: 1rem 0 2rem 0;
@@ -85,6 +95,9 @@ button:active {
     .nav-links {
         width: 270px;
         margin: 0rem auto;
+    }
+    .container-logo {
+        justify-content: space-between;
     }
 }
 

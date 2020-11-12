@@ -86,7 +86,7 @@ class Skills extends Component {
                             <img src={jsLogo} alt="JS Logo" />
                         </picture> 
                         <div className="img-drag3" style={{backgroundImage: `url(${coder})`}}></div>
-                    </div>
+                    </div>                    
                     <div className="img-wrap2">
                         <picture className="img-trail2">   
                             <source srcSet={fs} type="image/webp" />
@@ -155,6 +155,7 @@ class Skills extends Component {
                     </div>
                     <p className="click-drag"><span className="text-highlight">^</span> Click <span className="text-highlight">&amp;</span> Drag</p>                
                  </div>
+
             </div>
         </>    
         );
