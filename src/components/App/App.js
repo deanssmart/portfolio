@@ -3,6 +3,8 @@ import Nav from '../Nav';
 import Header from '../Header/Header';
 import Skills from '../Skills';
 import Card from '../Card/Card';
+import gallery from '../../assets/images/gallery.webp';
+import galleryPng from '../../assets/images/gallery.png';
 import frankenstyle from '../../assets/images/frankenstyle.webp';
 import frankenstylePng from '../../assets/images/frankenstyle.png';
 import tourn from '../../assets/images/tourn.webp';
@@ -20,14 +22,14 @@ const App = ({ home, projects, contact }) => (
   { projects ? 
   <>
     <div className="projects">
-      <Card appName="FRANKENSTYLE"
-              appImage={frankenstyle}
-              appImagePng={frankenstylePng}
-              appDesc="Interactive four player Pictionary style game where players take it in turns to draw and guess randomized words."
-              appLinkCode="https://github.com/deanssmart/frankenstyle"
-              appLinkLive="https://deanssmart.github.io/frankenstyle/"
-          />
-      
+      <Card appName="THE GALLERY"
+            appImage={gallery}
+            appImagePng={galleryPng}
+            appDesc="An interactive 3D gallery to showcase my art work"
+            appLinkCode="https://github.com/deanssmart/the-gallery"
+            appLinkLive="https://deanssmart.github.io/the-gallery/"
+      />
+
       <Card appName="TOURN"
             appImage={tourn}
             appImagePng={tournPng}
@@ -35,6 +37,16 @@ const App = ({ home, projects, contact }) => (
             appLinkCode="https://github.com/deanssmart/TOURN"
             appLinkLive="https://deanssmart.github.io/TOURN/"
       />
+    </div>
+    <div className="projects">
+      <Card appName="FRANKENSTYLE"
+              appImage={frankenstyle}
+              appImagePng={frankenstylePng}
+              appDesc="Interactive four player Pictionary style game where players take it in turns to draw and guess randomized words."
+              appLinkCode="https://github.com/deanssmart/frankenstyle"
+              appLinkLive="https://deanssmart.github.io/frankenstyle/"
+          />      
+
       <Card appName="THE VET PRACTICE"
             appImage={vet}
             appImagePng={vetPng}
